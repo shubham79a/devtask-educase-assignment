@@ -9,16 +9,18 @@ const Home = () => {
                     <h1 className='font-extrabold text-2xl'> Welcome to Popx </h1>
                     <p className='text-base text-gray-500 leading-[19px] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, possimus.</p>
                 </div>
-                <Link to="/signup">
-                    <button className='w-full bg-[#6c25ff] rounded-md py-1.5 text-white cursor-pointer'>
-                        Create Account
-                    </button>
-                </Link>
-                <Link to="/login">
-                    <button className='w-full bg-[#cfb9fb] text-black font-medium  rounded-md py-1.5 cursor-pointer'>
-                        Already Registered? Login
-                    </button>
-                </Link>
+                <div className='flex gap-3 flex-col'>
+                    <Link to="/signup">
+                        <button className='w-full bg-[#6c25ff] rounded-md py-1.5 text-white cursor-pointer'>
+                            Create Account
+                        </button>
+                    </Link>
+                    <Link to="/login">
+                        <button className='w-full bg-[#cfb9fb] text-black font-medium  rounded-md py-1.5 cursor-pointer'>
+                            Already Registered? Login
+                        </button>
+                    </Link>
+                </div>
             </div>
         </div>
     )
