@@ -79,7 +79,7 @@ const Signup = () => {
                 <div className='flex flex-col justify-end'>
                     <Button
                         label="Create Account"
-                        classname={`${allowSubmit ? 'bg-[#6c25ff] hover:bg-gray-400 cursor-pointer' : 'bg-gray-300 cursor-not-allowed'} text-white rounded-lg transition duration-200 `}
+                        classname={`${allowSubmit ? 'bg-[#6c25ff] hover:bg-[#6c25ec] cursor-pointer' : 'bg-gray-300 cursor-not-allowed'} text-white rounded-lg transition duration-200 `}
                         disabled={!allowSubmit}
                     />
                 </div>

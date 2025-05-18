@@ -11,12 +11,12 @@ const Home = () => {
                 </div>
                 <div className='flex gap-3 flex-col'>
                     <Link to="/signup">
-                        <button className='w-full bg-[#6c25ff] rounded-md h-8 md:h-10 lg:h-11 text-white cursor-pointer'>
+                        <button className='w-full hover:scale-[102%] duration-200 transition-all bg-[#6c25ff] rounded-md h-8 md:h-10 lg:h-11 text-white cursor-pointer'>
                             Create Account
                         </button>
                     </Link>
                     <Link to="/login">
-                        <button className='w-full bg-[#cfb9fb] text-black font-medium  rounded-md h-8 lg:h-11 md:h-10 cursor-pointer'>
+                        <button className='w-full bg-[#cfb9fb] hover:scale-[102%] duration-200 transition-all text-black font-medium  rounded-md h-8 lg:h-11 md:h-10 cursor-pointer'>
                             Already Registered? Login
                         </button>
                     </Link>

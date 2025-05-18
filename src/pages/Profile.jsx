@@ -30,7 +30,7 @@ const Profile = () => {
         <div className='max-w-xs max-sm:w-[280px] lg:max-w-[470px] md:max-w-[370px] mx-auto h-[90vh] border border-gray-200 flex flex-col my-[5vh] rounded-xs shadow'>
             <div className='flex justify-between mx-4 py-3 items-center border-b border-b-gray-500'>
                 <p>Account Settings</p>
-                <button className='bg-black text-white px-3 py-1 rounded-md' onClick={logout}>Logout</button>
+                <button className='bg-black cursor-pointer hover:bg-gray-800 hover:scale-[101%] text-white px-3 py-1 rounded-md' onClick={logout}>Logout</button>
             </div>
 
             <div className='p-5'>
