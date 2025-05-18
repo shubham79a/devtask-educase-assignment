@@ -1,12 +1,82 @@
-# React + Vite
+# 📘 EduCase Dev Task — Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based front-end project built for the EduCase assignment. It provides user authentication (signup/login), profile management, and conditional UI rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ React (w/ Vite)
+- 💅 Tailwind CSS
+- 📦 LocalStorage (for auth simulation)
+- 📁 Modular Components
+- 🚦 React Router DOM (v6)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/shubham79a/devtask-educase-assignment.git
+cd devtask-educase-assignment
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+## Visit http://localhost:5173 in your browser.
+
+---
+
+
+## 📁 Project Structure
+```bash
+src/
+├── components/        # Reusable UI components (Input, Button, etc.)
+├── pages/             # Login, Signup, Profile pages
+├── App.jsx            # Routes setup
+├── main.jsx           # Entry point
+└── index.css          # Tailwind base styles
+```
+---
+
+
+## 🚀 Features
+- ✍️ Signup with full form (email, password, etc.)
+- 🔐 Login & auto-redirect to profile
+- 📄 Profile with logout functionality
+- 🧠 Form validation & conditional button states
+- 🎨 Tailwind for responsive UI
+- 🧭 Client-side routing with React Router
+
+
+---
+## 💻 Recommended Setup
+- VS Code
+- Recommended extensions:
+  Tailwind CSS IntelliSense
+ESLint + Prettier
+React Developer Tools
+
+---
+## 📝 Author
+👤 Shubham Kumar
+
+---
+## 📄 License
+This project is licensed for educational purposes only.
+
