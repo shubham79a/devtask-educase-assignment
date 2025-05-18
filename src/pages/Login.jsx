@@ -33,11 +33,11 @@ const Login = () => {
     })
 
     return (
-        <div className='max-w-xs max-sm:w-[280px] mx-auto h-[90vh] border border-gray-200 flex flex-col justify-start my-[5vh] rounded-xs shadow'>
+        <div className='max-w-xs max-sm:w-[280px] lg:max-w-[470px] md:max-w-[370px] mx-auto h-[90vh] border border-gray-200 flex flex-col my-[5vh] rounded-xs shadow'>
             <form className='flex flex-col gap-6 px-5 py-8'>
                 <div>
-                    <p className='text-2xl font-semibold leading-7'>Signin to your <br /> Popx account</p>
-                    <p className='text-base text-gray-500 leading-[19px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis!</p>
+                    <p className='text-2xl md:text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9'>Signin to your <br /> Popx account</p>
+                    <p className='text-base text-gray-500 leading-[19px] lg:text-md pt-0.5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis!</p>
                 </div>
                 <div className='flex flex-col gap-4'>
                     <Input label="Email Address" placeholder="Enter email address" value={email} onChange={(e) => setEmail(e.target.value)} />
